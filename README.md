@@ -60,8 +60,8 @@ Apple, founded in Japan, would have likely focused on creating innovative and us
 ```plaintext
 Translate English to French:
 
-sunflower =>
-laptop =>
+sunflower => tournesol
+laptop => ordinateur portable
 wireless headphones =>
 jellyfish =>
 ```
