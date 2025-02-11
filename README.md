@@ -14,7 +14,7 @@ Please note that this repository does not include training code. Training large 
 
 The LLaMA model is built upon the transformer architecture, featuring multiple layers of self-attention and feed-forward networks. The incorporation of KV caching, grouped query attention, and rotary embeddings enhances its efficiency and performance during inference.
 
-![LLaMA Model Architecture](![image](https://github.com/user-attachments/assets/55ae63b9-6527-4296-92e1-3a4d60494eba))
+![LLaMA Model Architecture](![image](https://github.com/user-attachments/assets/55ae63b9-6527-4296-92e1-3a4d60494eba)
 
 *Figure: The LLaMA transformer architecture. Image credit: Umar Jamil.*
 
