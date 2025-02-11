@@ -20,58 +20,123 @@ The LLaMA model is built upon the transformer architecture, featuring multiple l
 
 ## Example Input and Output
 
-### Example 1: Zero-shot
+## Example Input and Output
 
-**Input Prompt**:
+Below are examples demonstrating three prompt strategies: **Zero-Shot**, **One-Shot**, and **Few-Shot**.
+
+### Zero-Shot
+
+**Input Prompt:**
 ```plaintext
 Explain the concept of quantum entanglement in simple terms.
 ```
 
-**Model Output**:
+**Model Output:**
 ```plaintext
 Quantum entanglement is a phenomenon in which two or more particles become connected in such a way that their properties are correlated, regardless of the distance between them. This means that if something happens to one particle, it will instantly affect the other particle, regardless of how far apart they are.
 
-Imagine you have two coins. If you flip one coin, the other coin will land on the same side, even if you flip it on the other side of the room. This is because the coins are not entangled, and the flip of one coin does not instantly affect the other coin.
-
-Now imagine you have two particles that are entangled. If you flip one particle, the other particle will instantly flip to the opposite side, even if it's on the other side of the room. This is because the particles are connected in a way that allows their properties to be correlated, even at a distance.
-
-Entanglement is a fundamental aspect of quantum mechanics, the branch of physics that explains the behavior of matter and energy at the smallest scales.
+Imagine you have two coins. If you flip one coin, the other coin will land on the same side, even if you flip it on the other side of the room. (Note: This analogy is simplified and does not capture all aspects of quantum entanglement.)
 ```
 
-### Example 2: One-shot
+### One-Shot
 
-**Input Prompt**:
+**Input Prompt:**
 ```plaintext
 If Apple was founded in Japan instead of the US, it would have likely focused on:
+Example: Sony revolutionized consumer electronics with the Walkman.
+Apple, in a Japanese context, would have likely...
 ```
 
-**Model Output**:
+**Model Output:**
 ```plaintext
 Apple, founded in Japan, would have likely focused on creating innovative and user-friendly technology products that cater to the unique preferences and needs of the Japanese market. Here are some potential areas of focus:
 
-1. Mobile payments: Japan is known for its cash-based society, and Apple, founded in Japan, would have likely prioritized mobile payment solutions to make transactions easier and more convenient for consumers.
-2. Smart home technology: Japanese consumers are known for their love of smart home devices, and Apple would have likely developed a range of smart home products, such as smart thermostats, lighting systems, and security cameras.
-3. Personalized health and wellness: Japan has a strong focus on health and wellness, and Apple, founded in Japan, would have likely developed products and services that cater to this market, such as wearable fitness trackers and health monitoring devices.
+1. **Mobile Payments:** Given Japan's traditionally cash-based society, Apple might have prioritized mobile payment solutions to simplify transactions.
+2. **Smart Home Technology:** With a growing interest in integrated smart home devices, the company could have developed products like smart thermostats, lighting systems, and security solutions.
+3. **Personalized Health and Wellness:** Recognizing the strong emphasis on health in Japan, Apple might have introduced advanced wearable devices for fitness tracking and health monitoring.
+4. **Consumer Electronics Design:** Embracing Japan's renowned design aesthetics, Apple may have emphasized sleek, minimalist products that resonate with local tastes.
 ```
 
-### Example 3: Few-shot
+### Few-Shot
 
-**Input Prompt**:
+**Input Prompt:**
 ```plaintext
 Translate English to French:
-
 sunflower => tournesol
 laptop => ordinateur portable
-wireless headphones =>
+wireless headphones => écouteurs sans fil
 jellyfish =>
+tree => arbre
+water => eau
+mountain => montagne
+river => fleuve
+bird => oiseau
+cat => chat
+dog => chien
+house => maison
+car => voiture
+park => parc
+garden => jardin
+city => ville
+tree => arbre
+flower => fleur
+fish => poisson
+beach => plage
+sea => mer
+sky => ciel
+moon => lune
+star => étoile
+rain => pluie
+cloud => nuage
+wind => vent
+snow => neige
+ice => glace
+fire => feu
+water => eau
+earth => terre
+sun => soleil
+moon => lune
+sky => ciel
+cloud => nuage
+wind => vent
+rain => pluie
+snow => neige
+Model Output:
 ```
 
-**Model Output**:
 ```plaintext
 sunflower => tournesol
 laptop => ordinateur portable
 wireless headphones => écouteurs sans fil
 jellyfish => méduse
+tree => arbre
+water => eau
+mountain => montagne
+river => fleuve
+bird => oiseau
+cat => chat
+dog => chien
+house => maison
+car => voiture
+park => parc
+garden => jardin
+city => ville
+tree => arbre
+flower => fleur
+fish => poisson
+beach => plage
+sea => mer
+sky => ciel
+moon => lune
+star => étoile
+rain => pluie
+cloud => nuage
+wind => vent
+snow => neige
+ice => glace
+fire => feu
+earth => terre
+sun => soleil
 ```
 
 These examples demonstrate the model's capability to perform language translation and provide informative responses based on the given prompts.
