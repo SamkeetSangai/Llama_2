@@ -101,9 +101,9 @@ cloud => nuage
 wind => vent
 rain => pluie
 snow => neige
-Model Output:
 ```
 
+**Model Output:**
 ```plaintext
 sunflower => tournesol
 laptop => ordinateur portable
