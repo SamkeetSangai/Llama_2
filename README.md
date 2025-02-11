@@ -20,8 +20,6 @@ The LLaMA model is built upon the transformer architecture, featuring multiple l
 
 ## Example Input and Output
 
-## Example Input and Output
-
 Below are examples demonstrating three prompt strategies: **Zero-Shot**, **One-Shot**, and **Few-Shot**.
 
 ### Zero-Shot
