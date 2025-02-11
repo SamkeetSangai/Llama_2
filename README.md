@@ -20,7 +20,7 @@ The LLaMA model is built upon the transformer architecture, featuring multiple l
 
 ## Example Input and Output
 
-### Example 1: Explanation of Quantum Entanglement
+### Example 1: Zero-shot
 
 **Input Prompt**:
 ```plaintext
@@ -38,7 +38,7 @@ Now imagine you have two particles that are entangled. If you flip one particle,
 Entanglement is a fundamental aspect of quantum mechanics, the branch of physics that explains the behavior of matter and energy at the smallest scales.
 ```
 
-### Example 2: Hypothetical Scenario - Apple Founded in Japan
+### Example 2: One-shot
 
 **Input Prompt**:
 ```plaintext
@@ -54,7 +54,7 @@ Apple, founded in Japan, would have likely focused on creating innovative and us
 3. Personalized health and wellness: Japan has a strong focus on health and wellness, and Apple, founded in Japan, would have likely developed products and services that cater to this market, such as wearable fitness trackers and health monitoring devices.
 ```
 
-### Example 3: Language Translation
+### Example 3: Few-shot
 
 **Input Prompt**:
 ```plaintext
