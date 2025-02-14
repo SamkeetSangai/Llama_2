@@ -144,3 +144,4 @@ For more detailed information on the LLaMA 2 architecture and its features, plea
 ## Credits
 
 - **Meta**: For developing the original LLaMA 2 model and providing the pre-trained weights.
+- **Umar Jamil**: For architecture code contributions.
